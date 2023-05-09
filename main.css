@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    background-color: #1e2124;
+}
+
+header h1 {
+    color:#b4b4b4;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
+}
+
+.container form {
+    margin: 16px;
+    margin-bottom: 32px;
+    max-width: 480px;
+    padding: 8px;
+    background-color: #424549;
+    border-radius: 4px;
+    border-bottom: 2px solid black;
+}
+
+form input {
+    border-radius: 3px;
+    border: none;
+    padding: 12px;
+    color: #646668;
+}
+
+form input:focus {
+    outline: none;
+}
+
+form button {
+    padding: 12px;
+    border-radius: 3px;
+    border: none;
+    background-color: #7289da;
+    color: #222222;
+    font-weight: bold;
+    border-bottom: 1px solid #222222;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: #1e2124;
+}
+
+h2 {
+    padding: 4px;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    color:#b4b4b4;
+    background-color: #7289da13;
+    text-align: left;
+    width: 470px;
+}
+
+.lista-contatos {
+    justify-content: center;
+    align-items: center;
+    width: 445px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.lista-contatos td {
+    padding: 8px;
+    background-color: rgb(41, 41, 41);
+    color: #b8b8b8;
+    width: 470px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+}
+
