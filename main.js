@@ -9,8 +9,6 @@ form.addEventListener('submit', function(e) {
 
     criaLinha();
     atualizaAgenda();
-    nomeContato.value = '';
-    numeroContato.value = '';
 })
 
 function criaLinha() {
